@@ -1,0 +1,17 @@
+root/*
+!root/usr
+root/usr/*
+!root/usr/share
+root/usr/share/*
+!root/usr/share/nginx
+root/usr/share/nginx/html/wp-config.php
+root/usr/share/nginx/html/wp-content/w3tc/*
+root/usr/share/nginx/html/wp-content/cache/*
+
+
+!root/etc
+root/etc/*
+!root/etc/php-fpm.conf
+!root/etc/php-fpm.d
+!root/etc/nginx
+!root/etc/my.cnf
